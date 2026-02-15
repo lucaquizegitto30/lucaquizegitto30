@@ -1,0 +1,147 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;          
+  background-position: center;     
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+}
+
+.margine {
+  margin-top: 40px;
+}
+
+body.principale {
+  background-image: url('images/sfondo.jpeg'); 
+}
+
+body.domanda1, body.domanda2, body.domanda3, body.domanda4, body.domanda5 {
+  background-image: url('images/piramidi.jpeg');
+}
+
+body.domanda6, body.domanda7, body.domanda8, body.domanda9, body.domanda10 {
+  background-image: url('images/cultura.jpeg');
+}
+
+body.domanda11, body.domanda12, body.domanda13, body.domanda14, body.domanda15 {
+  background-image: url('images/inter.jpeg');
+}
+body.domanda16, body.domanda17, body.domanda18, body.domanda19, body.domanda20 {
+  background-image: url('images/anime.jpeg');
+}
+body.domanda21, body.domanda22, body.domanda23, body.domanda24, body.domanda25 {
+  background-image: url('images/famiglia.jpeg');
+}
+body.domanda26, body.domanda27, body.domanda28, body.domanda29, body.domanda30 {
+  background-image: url('images/linda.jpeg');
+}
+body.domanda31, body.domanda32, body.domanda33, body.domanda34, body.domanda35 {
+  background-image: url('images/matteo.jpeg');
+}
+body.domanda36, body.domanda37, body.domanda38, body.domanda39, body.domanda40 {
+  background-image: url('images/chiara.jpeg');
+}
+body.domanda41, body.domanda42, body.domanda43, body.domanda44, body.domanda45 {
+  background-image: url('images/bre.jpeg');
+}
+body.domanda46, body.domanda47, body.domanda48, body.domanda49, body.domanda50 {
+  background-image: url('images/meri.jpeg');
+}
+body.domanda51, body.domanda52, body.domanda53, body.domanda54, body.domanda55 {
+  background-image: url('images/cri.jpeg');
+}
+body.domanda56, body.domanda57, body.domanda58, body.domanda59, body.domanda60 {
+  background-image: url('images/gruppo.jpeg');
+}
+
+/* Contenuto sopra lo sfondo */
+.contenuto {
+  text-align: center;
+  color: white;  
+  padding: 150px 100px;
+}
+.testo {
+  font-size: 20px;
+}
+button {
+  margin: 40px 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.7); 
+}
+.contenuto1 {
+   max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.titoloDomanda {
+  color: white;
+}
+.pDomanda {
+  color: white;
+}
+.risposta {
+  background-color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 25px;       
+  cursor: pointer;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: 0.2s;
+  font-size: 20px;
+}
+
+.risposta:hover {
+  transform: scale(1.03);
+}
+
+/* Feedback */
+#feedback {
+  margin-top: 20px;
+  font-weight: bold;
+  display: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+#nextBtn {
+  margin-top: 20px;
+  margin-left: auto; 
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #e5be01;
+  color: white;
+  font-size: 16px;
+  display: none; 
+}
+#nextBtn:hover {
+  background-color: #e5bf01e1;
+}
+#boxPunteggio{
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  padding: 30px 50px;
+  border-radius: 15px;
+  margin-top: 100px;
+  width: 55vw;
+  max-width: 900px;   
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: auto;   
+  margin-right: auto; 
+}
